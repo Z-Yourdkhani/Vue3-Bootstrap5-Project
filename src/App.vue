@@ -1,12 +1,16 @@
 <template>
+ <TheHeader />
  <div style="min-height: 70vh;"></div>
  <TheFooter />
 </template>
 
 <script>
-import TheFooter from './layout/TheFooter.vue'
+import TheFooter from './layouts/TheFooter.vue'
+import TheHeader from './layouts/TheHeader.vue'
+
 export default {
  components: {
+  TheHeader,
   TheFooter
  }
 }
